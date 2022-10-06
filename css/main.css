@@ -664,4 +664,131 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.hamkorlar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.line-color {
+  border: 2px solid #37474F;
+}
+
+.hamkorlar-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  color: #191C2F;
+  margin: 0;
+  padding: 0;
+}
+
+.hamkorlar-cards {
+  margin-top: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 22px;
+}
+
+.hamkorlar-cards__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 246px;
+  height: 150px;
+  background: #FFFFFF;
+  -webkit-box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.03), 4px 4px 10px rgba(0, 0, 0, 0.03);
+          box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.03), 4px 4px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.hamkorlar-cards__img1 {
+  width: 116px;
+  height: 62px;
+}
+
+.hamkorlar-cards__img2 {
+  width: 166px;
+  height: 58px;
+}
+
+.hamkorlar-cards__img3 {
+  width: 201px;
+  height: 85px;
+}
+
+.hamkorlar-cards__img4 {
+  width: 204px;
+  height: 62px;
+}
+
+.hamkorlar-cards__img5 {
+  width: 246px;
+  height: 150px;
+}
+
+.hamkorlar-cards__img6 {
+  width: 246px;
+  height: 102px;
+}
+
+.hamkorlar-cards__img7 {
+  width: 181px;
+  height: 69px;
+}
+
+.hamkorlar-cards__img8 {
+  width: 119px;
+  height: 65px;
+}
+
+.hamkorlar-cards__img9 {
+  width: 158px;
+  height: 60px;
+}
+
+.hamkorlar-cards__img10 {
+  width: 174px;
+  height: 84px;
+}
+
+.hamkorlar-cards__img11 {
+  width: 168px;
+  height: 66px;
+}
+
+.hamkorlar-cards__img12 {
+  width: 80px;
+  height: 80px;
+}
+
+.hamkorlar-cards__img13 {
+  width: 154.7px;
+  height: 131.95px;
+}
+
+@media only screen and (max-width: 1270px) {
+  .hamkorlar-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
