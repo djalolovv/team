@@ -122,3 +122,18 @@
   background-color: #d9d9d9;
   border-radius: 10px;
 }
+@mixin jamoa-item-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #dfbb7f;
+}
+@mixin jamoa-texts {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
