@@ -1,0 +1,71 @@
+.jamoa__container {
+  margin-top: 90px;
+}
+.jamoa__title {
+  margin-bottom: 37px;
+}
+.jamoa__list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.jamoa__item {
+  padding: 18px 7px 11px 15px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.jamoa__imgs {
+  background-color: #f8f7fc;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.jamoa__img {
+  width: 211px;
+  height: 268px;
+  margin-top: -50px;
+}
+.item__title {
+  @include jamoa-item-title;
+}
+.item__text {
+  @include jamoa-texts;
+  max-width: 186px;
+}
+@media only screen and (max-width: 1300px) {
+  .jamoa__list {
+    gap: 19px;
+  }
+  .jamoa__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .jamoa__item {
+    padding: 18px 9px 25px 8px;
+  }
+  .jamoa__img {
+    width: 184px;
+  }
+  .item__text {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 163px;
+  }
+  .item__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 518px) {
+  .jamoa__item {
+    padding: 18px 2px 25px 8px;
+  }
+}
+@media only screen and (max-width: 448px) {
+  .jamoa__list {
+    gap: 30px;
+  }
+}
