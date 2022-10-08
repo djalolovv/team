@@ -370,6 +370,65 @@
           </ul>
         </div>
       </section>
+
+      <section class="feedback">
+        <div class="feedback-container container">
+          <h3 class="feedback-h3">
+            Sizda g’oya bormi?
+          </h3>
+          <h2 class="feedback-h2">
+            BIZGA BOG'LANING G'OYALARNI AMALGA OSHIRING!
+          </h2>
+          <form action="post" class="feedback-form">
+            <div class="feedback-form__inputs">
+              <div class="feedback-form__inputs__inp-1">
+                  <label for="fname" class="feedback-form__label">
+                      Ism
+                  </label>
+                <div class="feedback-form__inp-div">
+                  <input 
+                  class="feedback-form__name__inp"
+                    type="text"
+                    placeholder="Ismingizni kiriting"
+                    id="fname" 
+                    name="firstname"
+                  > 
+              </div>
+              </div>
+              <div class="feedback-form__inputs__inp-2">
+                <label for="tel" class="feedback-form__label">
+                  Telefon <span class="feedback-form__span">(Ko’rsatilishi shart)</span>
+                </label>
+                <div class="feedback-form__tel">
+                  <select name="tel" id="tel" class="feedback-form__tel__select">
+                    <option value="tel" class="feedback-form__tel__opt">
+                      +998
+                    </option>
+                  </select>
+                  <input 
+                    class="feedback-form__tel__inp" 
+                    type="text"
+                    name="tel"
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="text-area">
+              <label for="message" class="feedback-form__label">
+              Xabaringizni qoldiring
+            </label>
+            <textarea textarea name="message" id="mess" cols="30" rows="10" class="feedback-textarea">
+                Xabar yozish...
+              </textarea>
+            </div>
+            <button class="fb-btn">
+              Yuborish
+            </button>
+          </form>
+        </div>
+      </section>
+
+
     </main>
     <footer>
       <div class="container footer__container">
